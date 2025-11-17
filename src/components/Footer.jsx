@@ -16,6 +16,7 @@ function Footer({ schoolName, email }) {
            Contact: {email}
          </Text>
        </Group>
+       <a href="ai-chat.html">AI Assistant</a>
      </Container>
    </footer>
  )
