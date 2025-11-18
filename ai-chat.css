@@ -201,3 +201,14 @@ h1 {
 .template-button:active {
   background: #1d4ed8;
 }
+
+a {
+  text-align: center;
+  font-weight: 500;
+  text-decoration: none;
+  color:#646cff;
+}
+
+a:hover {
+  color: #535bf2;
+}
