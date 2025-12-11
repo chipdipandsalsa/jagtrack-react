@@ -61,7 +61,7 @@ return (
 
     <Footer
       schoolName="Jefferson Academy Secondary"
-      email="your.name@jajags.com"
+      email="ashlyn.wolfe@jajags.com"
     />
   </div>
 )

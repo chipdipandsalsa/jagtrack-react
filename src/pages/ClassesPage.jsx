@@ -39,7 +39,7 @@ const handleTabClick = (event) => {
 return (
   <Container size="xl" py="xl">
     <Title order={2} ta="center" mb="md">My Classes</Title>
-    <Text ta="center" c="dimmed" mb="xl">
+    <Text ta="center" c='var(--text-muted)' mb="xl">
       Click each block to see details
     </Text>
 

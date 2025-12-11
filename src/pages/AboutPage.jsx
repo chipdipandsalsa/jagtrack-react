@@ -7,7 +7,7 @@ function AboutPage() {
 return (
   <Container size="xl" py="xl">
     <Title order={2} ta="center" mb="md">About Me</Title>
-    <Text ta="center" c="dimmed">
+    <Text ta="center" c='var(--text-muted)'>
       You'll build this page in Exercise 4!
     </Text>
   </Container>

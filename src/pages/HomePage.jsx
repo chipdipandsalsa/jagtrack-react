@@ -15,7 +15,7 @@ return (
 
 
     <Title order={2} ta="center" mb="md">My 4 Classes</Title>
-    <Text ta="center" c="dimmed" mb="xl">
+    <Text ta="center" c='var(--text-muted)' mb="xl">
       Current Quarter
     </Text>
 
@@ -43,7 +43,7 @@ return (
 
     {/* Upcoming Assignments Section */}
     <Title order={2} ta="center" mb="md">Upcoming Assignments</Title>
-    <Text ta="center" c="dimmed" mb="xl">
+    <Text ta="center" c='var(--text-muted)' mb="xl">
       Your Canvas assignments sync automatically
     </Text>
 

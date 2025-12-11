@@ -20,8 +20,8 @@ function WeekDay() {
 
  return (
    <Paper shadow="sm" p="lg" radius="md" withBorder style={{ textAlign: 'center', marginBottom: '2rem' }}>
-     <Text size="sm" c="dimmed" mb={4}>Today is</Text>
-     <Text size="xl" fw={700} c="--blue">{dayName}</Text>
+     <Text size="sm" c='var(--text-muted)' mb={4}>Today is</Text>
+     <Text size="xl" fw={700} c='var(--blue)'>{dayName}</Text>
    </Paper>
  )
 }

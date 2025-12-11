@@ -5,7 +5,7 @@ function CalendarPage() {
 return (
   <Container size="xl" py="xl">
     <Title order={2} ta="center" mb="md">Calendar & Deadlines</Title>
-    <Text ta="center" c="dimmed" mb="xl">
+    <Text ta="center" c='var(--text-muted)' mb="xl">
       Your Canvas assignments automatically sync to this calendar. Never miss a deadline!
     </Text>
 
@@ -28,7 +28,7 @@ return (
 
 
 
-    <Text size="sm" c="dimmed" ta="center" mt="md" className="mobile-tip">
+    <Text size="sm" c='var(--text-muted)' ta="center" mt="md" className="mobile-tip">
       <strong>Mobile Tip:</strong> For a better experience on small screens,{' '}
       <a href="https://calendar.google.com/calendar/ical/dv6s7de96vve6j2lk5k6o3t96pam72qt%40import.calendar.google.com/public/basic.ics" target="_blank" rel="noopener noreferrer">
         open calendar in new tab

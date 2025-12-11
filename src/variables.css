@@ -1,5 +1,65 @@
+/* for light mode i'm just going to use default jagtrack tbh */
+
 :root {
+
     --header2: #f0ad4e;
     --blue: #1a5490;
+
+    /* Primary Brand Colors */
+    --primary-dark: #1a5490;
+    --accent-color: #f0ad4e;
+    --accent-secondary: #db4430;
+
+    /* Text Colors */
+    --text-dark: #213547;
+    --text-light: #abe8eb;
+    --text-muted: #426d92;
+
+    /* Background Colors */
+    --background-light: #4ac3e7;
+    --background-white: #abe8eb;
+    --background-dark: #1a5490;
+
 }
 
+/* dark = https://colorhunt.co/palette/1a1a1d3b1c326a1e55a64d79 */
+
+[data-theme="dark"] {
+
+    /* Primary Brand Colors */
+    --primary-dark: #1A1A1D;
+    --accent-color: #3B1C32;
+    --accent-secondary: #6A1E55;
+
+    /* Text Colors */
+    --text-dark: #3B1C32;
+    --text-light: #A64D79;
+    --text-muted: #6A1E55;
+
+    /* Background Colors */
+    --background-light: #6A1E55;
+    --background-white: #A64D79;
+    --background-dark: #1A1A1D;
+
+}
+
+/* custom = https://colorhunt.co/palette/1b211a6281418bae66ebd5ab */
+
+[data-theme="forest"] {
+
+    /* Primary Brand Colors */
+    --primary-dark: #1B211A;
+    --accent-color: #628141;
+    --accent-secondary: #8BAE66;
+
+    /* Text Colors */
+    --text-dark: #1B211A;
+    --text-light: #EBD5AB;
+    --text-muted: #8BAE66;
+
+    /* Background Colors */
+    --background-light: #8BAE66;
+    --background-white: #EBD5AB;
+    --background-dark: #1B211A;
+
+}

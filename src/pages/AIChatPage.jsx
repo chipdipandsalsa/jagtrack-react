@@ -20,7 +20,7 @@ function AIChatPage() {
   // ALWAYS USE DEMO MODE - No API required!
   // This ensures all students can complete the assignment without API issues
   // For real AI responses, see the Extra Credit section in the instructions
-  const FORCE_DEMO_MODE = true
+  const FORCE_DEMO_MODE = false
 
 
 
@@ -88,7 +88,7 @@ function AIChatPage() {
     try {
       // Try Hugging Face API
       const response = await hf.textGeneration({
-        model: "gpt2",
+        model: "Qwen",
         inputs: `Question: ${question}\nAnswer:`,
         parameters: {
           max_new_tokens: 150,
